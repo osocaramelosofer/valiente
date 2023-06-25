@@ -1,14 +1,7 @@
 <script lang="ts" setup>
 import { Filter } from '@vicons/ionicons5'
 import { NIcon } from 'naive-ui'
-import {defineProps, ref} from 'vue'
 
-// remove old logic to show menu
-// const show = ref(false)
-// const showMobileMenu = ()=> {
-//   show.value = !show.value;
-//   console.log(show.value);
-// }
 
 defineProps({
   showMenu: Function

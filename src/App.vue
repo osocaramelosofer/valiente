@@ -70,11 +70,6 @@ const activate = (place: DrawerPlacement) => {
 
     </section>
 
-<!--remove old button to show drawer-->
-<!--    <n-button @click="activate('right')">-->
-<!--      Right-->
-<!--    </n-button>-->
-
     <n-drawer
         v-model:show="activeRef"
         :default-width="250"

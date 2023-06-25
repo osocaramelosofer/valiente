@@ -7,34 +7,34 @@ import { ArrowBack, ArrowForward } from '@vicons/ionicons5'
   <n-carousel show-arrow autoplay>
     <img
         class="carousel-img"
-        src="src/assets/images/image1.jpg"
+        src="@/assets/images/image1.jpg"
     >
     <img
         class="carousel-img"
-        src="src/assets/images/image2.jpg"
-    >
-
-    <img
-        class="carousel-img"
-        src="src/assets/images/image4.jpg"
+        :src="require('@/assets/images/image2.jpg')"
     >
 
     <img
         class="carousel-img"
-        src="src/assets/images/image6.jpg"
+        src="@/assets/images/image4.jpg"
     >
 
     <img
         class="carousel-img"
-        src="src/assets/images/image8.jpg"
+        src="@/assets/images/image6.jpg"
+    >
+
+    <img
+        class="carousel-img"
+        src="@/assets/images/image8.jpg"
     >
     <img
         class="carousel-img"
-        src="src/assets/images/image9.jpg"
+        src="@/assets/images/image9.jpg"
     >
     <img
         class="carousel-img"
-        src="src/assets/images/image10.jpg"
+        src="@/assets/images/image10.jpg"
     >
 
     <img
