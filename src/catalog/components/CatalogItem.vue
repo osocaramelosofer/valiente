@@ -5,12 +5,6 @@ const props = defineProps({
   source: String
 })
 
-const fullUrlImage = computed(()=>{
-  return new URL(`@/assets/images/${props.source}`, import.meta.url).href
-})
-
-const imageUrl = new URL(`@/assets/images/${props.source}`, import.meta.url).href
-
 function getImageUrl() {
   // This path must be correct for your file
   return new URL(`../../assets/images/${props.source}`, import.meta.url)
@@ -20,12 +14,19 @@ console.log(getImageUrl())
 </script>
 
 <template>
-  <div class="w-52 h-52">
+  <div class="flex h-full">
+    <div class="w-60 h-40">
+      <img
+          class="object-cover w-full h-full"
+          :src="getImageUrl()"
+      >
+    </div>
+    <div class="flex flex-col  justify-between h-full">
+      <h3 class="text-4xl text-gray font-black opacity-70">01</h3>
+      <h4 class="text-dark  text-3xl font-extrabold">Title</h4>
+      <p class="text-dark font-medium">Description this is an example of how can the description could be.</p>
+    </div>
 
-    <img
-        class="object-cover w-full h-full"
-        :src="getImageUrl()"
-    >
   </div>
 </template>
 

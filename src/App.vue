@@ -59,9 +59,8 @@ const activate = (place: DrawerPlacement) => {
 
 
       </div>
-      <div class="bg-slate-950 md:hidden  p-4">
+      <div class="bg-slate-950 md:hidden p-4 m-b-6">
         <span class="text-yellow font-bold text-3xl">NEW</span>
-
         <div>
           <h4 class="font-bold text-white">Title notice</h4>
           <p>something about the notice goes here</p>

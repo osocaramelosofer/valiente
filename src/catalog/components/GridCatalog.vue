@@ -24,13 +24,11 @@ const items: CatalogItemType[] = [
 </script>
 
 <template>
-  <section class="grid">
-    <div v-for="item in items"
-         class="bg-red-200"
-    >
-      <CatalogItem
-          :source="item.route"
-      />
-    </div>
+  <section class="grid justify-center gap-y-5 ">
+
+    <CatalogItem
+        v-for="item in items"
+        :source="item.route"
+    />
   </section>
 </template>
