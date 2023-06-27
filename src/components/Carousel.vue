@@ -11,7 +11,7 @@ import { ArrowBack, ArrowForward } from '@vicons/ionicons5'
     >
     <img
         class="carousel-img"
-        :src="require('@/assets/images/image2.jpg')"
+        src="@/assets/images/image2.jpg"
     >
 
     <img

@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import { useDark, useToggle } from '@vueuse/core'
+import Catalog from "@/catalog/Catalog.vue"
 import Carousel from "@/components/Carousel.vue";
 import { NDrawer, NDrawerContent, NButton } from 'naive-ui'
 import NavBar  from "@/components/NavBar.vue";
@@ -15,6 +16,9 @@ const activate = (place: DrawerPlacement) => {
   activeRef.value = true
   placementRef.value = place
 }
+
+
+
 
 </script>
 
@@ -66,6 +70,9 @@ const activate = (place: DrawerPlacement) => {
           <p>something about the notice goes here</p>
         </div>
       </div>
+
+
+      <Catalog />
 
 
     </section>
