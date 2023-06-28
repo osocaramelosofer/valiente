@@ -24,8 +24,8 @@ defineProps({
         </n-icon>
       </div>
       <ul class="hidden md:flex md:justify-between md:w-4/6">
-        <li class="text-indigo-900 opacity-50 hover:opacity-100 cursor-pointer">Products</li>
-        <li class="text-indigo-900 opacity-50 hover:opacity-100 cursor-pointer">About us</li>
+        <router-link to="home" class="no-underline text-2xl font-semibold text-indigo-900 opacity-50 hover:opacity-100 cursor-pointer">Home</router-link>
+        <router-link to="about-us" class="no-underline text-2xl font-semibold text-indigo-900 opacity-50 hover:opacity-100 cursor-pointer">About us</router-link>
         <li class="text-indigo-900 opacity-50 hover:opacity-100 cursor-pointer">Location</li>
       </ul>
     </div>

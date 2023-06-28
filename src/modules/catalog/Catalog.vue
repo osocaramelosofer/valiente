@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import GridCatalog from "@/catalog/components/GridCatalog.vue"
+import GridCatalog from "@/modules/catalog/components/GridCatalog.vue"
 
 </script>
 

@@ -1,7 +1,10 @@
 import './assets/main.css'
 import 'virtual:uno.css'
+import router from './router/router.js'
 
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+createApp(App)
+  .use(router)
+  .mount('#app')

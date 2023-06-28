@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { CatalogItem as CatalogItemType } from "@/types/Catalog"
-import CatalogItem from "@/catalog/components/CatalogItem.vue"
+import CatalogItem from "@/modules/catalog/components/CatalogItem.vue"
 
 
 const items: CatalogItemType[] = [
